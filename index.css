@@ -1,0 +1,78 @@
+ul{
+    list-style: none;
+}
+.container{
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.min{
+    width: 400px;
+    height: auto;
+    float: left;
+}
+.max{
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+    overflow: hidden;
+    display: none;
+    position: relative;
+}
+.max img{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.top{
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+b{
+    width: 180px;
+    height: 180px;
+    background-color: blue;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.bottom{
+    width: 400px;
+    height: 60px;
+    margin-top: 20px;
+}
+.left{
+    float: left;
+    height: 45px;
+    width: 10px;
+}
+.item{
+    float: left;
+  
+}
+.item ul{
+    width: 370px;
+    margin-left: 7px;
+}
+.item ul li{
+    float: left;
+    margin-left: 5px;
+}
+.item ul li img{
+    width: 60px;
+    height: 45px;
+    border:1px solid #ccc;
+    padding:2px;
+}
+.right{
+    float: left;
+}
+.item ul li img.bg{
+    border:2px solid orange;
+}
